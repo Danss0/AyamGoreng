@@ -2,9 +2,9 @@ document.addEventListener('alpine:init', () => {
 Alpine.data('products', () => {
   return {
     items: [
-      {id: 1, name: 'Ayam Bakar', price: 20000, img: 'bakar.jpg'},
-      {id: 2, name: 'Ayam Goreng', price: 15000, img: 'goreng.jpeg'},
-      {id: 3, name: 'Sate Kulit', price: 2000, img: 'kulit.jpg'}, 
+      {id: 1, name: 'Ayam Bakar', price: 20000, img: 'img/products/bakar.jpg'},
+      {id: 2, name: 'Ayam Goreng', price: 15000, img: 'img/products/goreng.jpeg'},
+      {id: 3, name: 'Sate Kulit', price: 2000, img: 'img/products/kulit.jpg'}, 
     ],
   }});
 

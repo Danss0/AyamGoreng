@@ -203,7 +203,7 @@
             <a href="" @click.prevent="$store.cart.add(item)"><i class="bi bi-cart"></i></a>
         </div>
         <div class="product-image">
-          <img :src="'img/products/' + item.img" :alt="item.name">
+          <img :src="item.img" :alt="item.name">
         </div>
         <div class="product-content">
           <h3 x-text="item.name"></h3>
